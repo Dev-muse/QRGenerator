@@ -82,7 +82,7 @@ body {
 #msg {
   margin-left: 200px;
   margin-top: 10px;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 ::placeholder {
@@ -90,15 +90,15 @@ body {
 }
 
 #outputbox {
-  width: 400px;
+  width: 300px;
   height: 50%;
   background-color: #ffbb00;
   position: absolute;
-  right: 10px;
+  right: 80px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 20px;
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* don't go to big. otherwise the qr code is may not readable anymore */
